@@ -1,0 +1,38 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.menuFrame{
+    height: 60%;
+    width: 300px;
+    top: 10%;
+    right: 0;
+    position: fixed;
+    border:  1px dashed #33a763;
+    transition: 300ms linear all;
+    -webkit-transition: 300ms linear all;
+}
+
+.menuBtn{
+    height: 50px;
+    width: 50px;
+    left: 0;
+    position: absolute;
+    background-color: aqua;
+}
+.menuContainer{
+    height: 100%;
+    width: 250px;
+    right: 0;
+    position: absolute;
+    background-color: grey;
+}
+.show{
+    right: 0;
+}
+.hide{
+    right: -250px;
+}
